@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180AB47E1E2894330078A6D7 /* FormalSubcatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AB47D1E2894330078A6D7 /* FormalSubcatController.swift */; };
+		180B004B1E02BD8800DC24D0 /* Developers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B004A1E02BD8800DC24D0 /* Developers.swift */; };
+		180B004D1E02C0B200DC24D0 /* DevelopersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B004C1E02C0B200DC24D0 /* DevelopersCell.swift */; };
+		182DE8B41DF9D15F008676A8 /* MessageBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DE8B31DF9D15F008676A8 /* MessageBoard.swift */; };
+		182DE8B61DFA630D008676A8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DE8B51DFA630D008676A8 /* Message.swift */; };
+		182DE8BA1DFA6E41008676A8 /* MessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DE8B91DFA6E41008676A8 /* MessagesCell.swift */; };
+		182DE8BF1DFAA1DF008676A8 /* AllEventsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DE8BE1DFAA1DF008676A8 /* AllEventsList.swift */; };
+		182DE8C11DFAA72B008676A8 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DE8C01DFAA72B008676A8 /* DataHandler.swift */; };
+		186688291DFBD08100CAE30D /* ContactUsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186688281DFBD08100CAE30D /* ContactUsCell.swift */; };
+		1866882B1DFBD0F700CAE30D /* ContactUS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866882A1DFBD0F700CAE30D /* ContactUS.swift */; };
+		1866882D1DFBE0B400CAE30D /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866882C1DFBE0B400CAE30D /* Feedback.swift */; };
+		1866E7441DF99C2D0067945A /* CommonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866E7431DF99C2D0067945A /* CommonViewController.swift */; };
+		1873315C1DFE4A76007946E9 /* RequestBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873315B1DFE4A76007946E9 /* RequestBoard.swift */; };
+		1873315E1DFE4ED5007946E9 /* RequestChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1873315D1DFE4ED5007946E9 /* RequestChange.swift */; };
+		187331611DFEBC11007946E9 /* RequestBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187331601DFEBC11007946E9 /* RequestBoardCell.swift */; };
+		188F07591DFDC0B30053D0AB /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F07581DFDC0B30053D0AB /* LoginPage.swift */; };
+		189BB21A1DF7E9380065992C /* EventDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BB2191DF7E9380065992C /* EventDetails.swift */; };
+		189BB21D1DF808980065992C /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BB21C1DF808980065992C /* ListController.swift */; };
+		189BB21F1DF815DB0065992C /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BB21E1DF815DB0065992C /* MasterTableViewCell.swift */; };
+		189BB2211DF835A00065992C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BB2201DF835A00065992C /* DetailViewController.swift */; };
+		189BB2231DF842810065992C /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BB2221DF842810065992C /* ListTableViewCell.swift */; };
+		18CD907B1DF926ED000EE03C /* CodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD907A1DF926ED000EE03C /* CodViewController.swift */; };
+		18CDED061DF6D638004CD85E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CDED051DF6D638004CD85E /* AppDelegate.swift */; };
+		18CDED0B1DF6D638004CD85E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CDED091DF6D638004CD85E /* Main.storyboard */; };
+		18CDED0E1DF6D638004CD85E /* Riviera17.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CDED0C1DF6D638004CD85E /* Riviera17.xcdatamodeld */; };
+		18CDED101DF6D638004CD85E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CDED0F1DF6D638004CD85E /* Assets.xcassets */; };
+		18CDED131DF6D638004CD85E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CDED111DF6D638004CD85E /* LaunchScreen.storyboard */; };
+		18CDED1E1DF6D638004CD85E /* Riviera17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CDED1D1DF6D638004CD85E /* Riviera17Tests.swift */; };
+		18CDED291DF6D638004CD85E /* Riviera17UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CDED281DF6D638004CD85E /* Riviera17UITests.swift */; };
+		18D6853C1DF7056B00BC7A95 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6853B1DF7056B00BC7A95 /* EventService.swift */; };
+		18ED121A1DF7B88100FCCD28 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED12191DF7B88100FCCD28 /* MasterViewController.swift */; };
+		69F14075C503D9068F713554 /* Pods_Riviera17Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C9662E378CA18B7DFED0C4 /* Pods_Riviera17Tests.framework */; };
+		9EEA108E3123756864479BEC /* Pods_Riviera17UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA7EB04DC5FC75954BB9ED8 /* Pods_Riviera17UITests.framework */; };
+		EF2AD3B08C0C45129FA98E24 /* Pods_Riviera17.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442090D5914815252660B717 /* Pods_Riviera17.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CDED1A1DF6D638004CD85E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CDECFA1DF6D638004CD85E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CDED011DF6D638004CD85E;
+			remoteInfo = Riviera17;
+		};
+		18CDED251DF6D638004CD85E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CDECFA1DF6D638004CD85E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CDED011DF6D638004CD85E;
+			remoteInfo = Riviera17;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180AB47D1E2894330078A6D7 /* FormalSubcatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormalSubcatController.swift; sourceTree = "<group>"; };
+		180B004A1E02BD8800DC24D0 /* Developers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Developers.swift; sourceTree = "<group>"; };
+		180B004C1E02C0B200DC24D0 /* DevelopersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevelopersCell.swift; sourceTree = "<group>"; };
+		182DE8B31DF9D15F008676A8 /* MessageBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBoard.swift; sourceTree = "<group>"; };
+		182DE8B51DFA630D008676A8 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		182DE8B91DFA6E41008676A8 /* MessagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCell.swift; sourceTree = "<group>"; };
+		182DE8BE1DFAA1DF008676A8 /* AllEventsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllEventsList.swift; sourceTree = "<group>"; };
+		182DE8C01DFAA72B008676A8 /* DataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		186688281DFBD08100CAE30D /* ContactUsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsCell.swift; sourceTree = "<group>"; };
+		1866882A1DFBD0F700CAE30D /* ContactUS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUS.swift; sourceTree = "<group>"; };
+		1866882C1DFBE0B400CAE30D /* Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		1866E7431DF99C2D0067945A /* CommonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonViewController.swift; sourceTree = "<group>"; };
+		1873315B1DFE4A76007946E9 /* RequestBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBoard.swift; sourceTree = "<group>"; };
+		1873315D1DFE4ED5007946E9 /* RequestChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestChange.swift; sourceTree = "<group>"; };
+		187331601DFEBC11007946E9 /* RequestBoardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBoardCell.swift; sourceTree = "<group>"; };
+		188F07581DFDC0B30053D0AB /* LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		189BB2191DF7E9380065992C /* EventDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetails.swift; sourceTree = "<group>"; };
+		189BB21C1DF808980065992C /* ListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		189BB21E1DF815DB0065992C /* MasterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
+		189BB2201DF835A00065992C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		189BB2221DF842810065992C /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		18B776F81DF97E35003D7587 /* Riviera17-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Riviera17-Bridging-Header.h"; sourceTree = "<group>"; };
+		18CD907A1DF926ED000EE03C /* CodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodViewController.swift; sourceTree = "<group>"; };
+		18CDED021DF6D638004CD85E /* Riviera17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riviera17.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CDED051DF6D638004CD85E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18CDED0A1DF6D638004CD85E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CDED0D1DF6D638004CD85E /* Riviera17.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Riviera17.xcdatamodel; sourceTree = "<group>"; };
+		18CDED0F1DF6D638004CD85E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CDED121DF6D638004CD85E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18CDED141DF6D638004CD85E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CDED191DF6D638004CD85E /* Riviera17Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Riviera17Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CDED1D1DF6D638004CD85E /* Riviera17Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riviera17Tests.swift; sourceTree = "<group>"; };
+		18CDED1F1DF6D638004CD85E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CDED241DF6D638004CD85E /* Riviera17UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Riviera17UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CDED281DF6D638004CD85E /* Riviera17UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riviera17UITests.swift; sourceTree = "<group>"; };
+		18CDED2A1DF6D638004CD85E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D6853B1DF7056B00BC7A95 /* EventService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
+		18ED12191DF7B88100FCCD28 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		442090D5914815252660B717 /* Pods_Riviera17.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Riviera17.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5D71AE319472EDEF4A8F50 /* Pods-Riviera17.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riviera17.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Riviera17/Pods-Riviera17.debug.xcconfig"; sourceTree = "<group>"; };
+		58FD0662B481DE7B31496C27 /* Pods-Riviera17.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riviera17.release.xcconfig"; path = "Pods/Target Support Files/Pods-Riviera17/Pods-Riviera17.release.xcconfig"; sourceTree = "<group>"; };
+		6B3E093B8E9E5898B7080480 /* Pods-Riviera17UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riviera17UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Riviera17UITests/Pods-Riviera17UITests.release.xcconfig"; sourceTree = "<group>"; };
+		7573A83EE1F06A640F222F51 /* Pods-Riviera17Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riviera17Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Riviera17Tests/Pods-Riviera17Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A4C9662E378CA18B7DFED0C4 /* Pods_Riviera17Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Riviera17Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C0BB5C9099D5A63FE1E5D2 /* Pods-Riviera17UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riviera17UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Riviera17UITests/Pods-Riviera17UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAA7EB04DC5FC75954BB9ED8 /* Pods_Riviera17UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Riviera17UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07533E278421712A90F1B58 /* Pods-Riviera17Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riviera17Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Riviera17Tests/Pods-Riviera17Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CDECFF1DF6D638004CD85E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2AD3B08C0C45129FA98E24 /* Pods_Riviera17.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDED161DF6D638004CD85E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F14075C503D9068F713554 /* Pods_Riviera17Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDED211DF6D638004CD85E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEA108E3123756864479BEC /* Pods_Riviera17UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182DE8BB1DFA74BB008676A8 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				182DE8BE1DFAA1DF008676A8 /* AllEventsList.swift */,
+				182DE8B91DFA6E41008676A8 /* MessagesCell.swift */,
+				182DE8B31DF9D15F008676A8 /* MessageBoard.swift */,
+				182DE8B51DFA630D008676A8 /* Message.swift */,
+			);
+			name = Messaging;
+			sourceTree = "<group>";
+		};
+		182DE8BC1DFA74E8008676A8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18ED12191DF7B88100FCCD28 /* MasterViewController.swift */,
+				189BB21C1DF808980065992C /* ListController.swift */,
+				180AB47D1E2894330078A6D7 /* FormalSubcatController.swift */,
+				189BB2201DF835A00065992C /* DetailViewController.swift */,
+				18D6853B1DF7056B00BC7A95 /* EventService.swift */,
+				189BB2191DF7E9380065992C /* EventDetails.swift */,
+				189BB21E1DF815DB0065992C /* MasterTableViewCell.swift */,
+				189BB2221DF842810065992C /* ListTableViewCell.swift */,
+				18CD907A1DF926ED000EE03C /* CodViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		182DE8BD1DFA7518008676A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B776F81DF97E35003D7587 /* Riviera17-Bridging-Header.h */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		1873315F1DFE4FDF007946E9 /* RequestBoard */ = {
+			isa = PBXGroup;
+			children = (
+				187331601DFEBC11007946E9 /* RequestBoardCell.swift */,
+				1873315B1DFE4A76007946E9 /* RequestBoard.swift */,
+				1873315D1DFE4ED5007946E9 /* RequestChange.swift */,
+			);
+			name = RequestBoard;
+			sourceTree = "<group>";
+		};
+		18CDECF91DF6D638004CD85E = {
+			isa = PBXGroup;
+			children = (
+				18CDED041DF6D638004CD85E /* Riviera17 */,
+				18CDED1C1DF6D638004CD85E /* Riviera17Tests */,
+				18CDED271DF6D638004CD85E /* Riviera17UITests */,
+				18CDED031DF6D638004CD85E /* Products */,
+				8C5E2DAA1112557C070F2277 /* Pods */,
+				39B4F13239C1F2D8045ACA6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18CDED031DF6D638004CD85E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CDED021DF6D638004CD85E /* Riviera17.app */,
+				18CDED191DF6D638004CD85E /* Riviera17Tests.xctest */,
+				18CDED241DF6D638004CD85E /* Riviera17UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CDED041DF6D638004CD85E /* Riviera17 */ = {
+			isa = PBXGroup;
+			children = (
+				182DE8BC1DFA74E8008676A8 /* Home */,
+				1873315F1DFE4FDF007946E9 /* RequestBoard */,
+				182DE8BB1DFA74BB008676A8 /* Messaging */,
+				18CDED091DF6D638004CD85E /* Main.storyboard */,
+				180B004A1E02BD8800DC24D0 /* Developers.swift */,
+				180B004C1E02C0B200DC24D0 /* DevelopersCell.swift */,
+				188F07581DFDC0B30053D0AB /* LoginPage.swift */,
+				1866882A1DFBD0F700CAE30D /* ContactUS.swift */,
+				1866882C1DFBE0B400CAE30D /* Feedback.swift */,
+				186688281DFBD08100CAE30D /* ContactUsCell.swift */,
+				182DE8C01DFAA72B008676A8 /* DataHandler.swift */,
+				18CDED051DF6D638004CD85E /* AppDelegate.swift */,
+				1866E7431DF99C2D0067945A /* CommonViewController.swift */,
+				18CDED0F1DF6D638004CD85E /* Assets.xcassets */,
+				18CDED111DF6D638004CD85E /* LaunchScreen.storyboard */,
+				18CDED141DF6D638004CD85E /* Info.plist */,
+				18CDED0C1DF6D638004CD85E /* Riviera17.xcdatamodeld */,
+				182DE8BD1DFA7518008676A8 /* Support Files */,
+			);
+			path = Riviera17;
+			sourceTree = "<group>";
+		};
+		18CDED1C1DF6D638004CD85E /* Riviera17Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18CDED1D1DF6D638004CD85E /* Riviera17Tests.swift */,
+				18CDED1F1DF6D638004CD85E /* Info.plist */,
+			);
+			path = Riviera17Tests;
+			sourceTree = "<group>";
+		};
+		18CDED271DF6D638004CD85E /* Riviera17UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CDED281DF6D638004CD85E /* Riviera17UITests.swift */,
+				18CDED2A1DF6D638004CD85E /* Info.plist */,
+			);
+			path = Riviera17UITests;
+			sourceTree = "<group>";
+		};
+		39B4F13239C1F2D8045ACA6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				442090D5914815252660B717 /* Pods_Riviera17.framework */,
+				A4C9662E378CA18B7DFED0C4 /* Pods_Riviera17Tests.framework */,
+				AAA7EB04DC5FC75954BB9ED8 /* Pods_Riviera17UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C5E2DAA1112557C070F2277 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B5D71AE319472EDEF4A8F50 /* Pods-Riviera17.debug.xcconfig */,
+				58FD0662B481DE7B31496C27 /* Pods-Riviera17.release.xcconfig */,
+				B07533E278421712A90F1B58 /* Pods-Riviera17Tests.debug.xcconfig */,
+				7573A83EE1F06A640F222F51 /* Pods-Riviera17Tests.release.xcconfig */,
+				A7C0BB5C9099D5A63FE1E5D2 /* Pods-Riviera17UITests.debug.xcconfig */,
+				6B3E093B8E9E5898B7080480 /* Pods-Riviera17UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CDED011DF6D638004CD85E /* Riviera17 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CDED2D1DF6D638004CD85E /* Build configuration list for PBXNativeTarget "Riviera17" */;
+			buildPhases = (
+				40850467E1C291A72E1BDD9A /* [CP] Check Pods Manifest.lock */,
+				18CDECFE1DF6D638004CD85E /* Sources */,
+				18CDECFF1DF6D638004CD85E /* Frameworks */,
+				18CDED001DF6D638004CD85E /* Resources */,
+				767F30247721FA68DD75231C /* [CP] Embed Pods Frameworks */,
+				387014720E0DECA2CF493452 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Riviera17;
+			productName = Riviera17;
+			productReference = 18CDED021DF6D638004CD85E /* Riviera17.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CDED181DF6D638004CD85E /* Riviera17Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CDED301DF6D638004CD85E /* Build configuration list for PBXNativeTarget "Riviera17Tests" */;
+			buildPhases = (
+				F7F1B83A39BA2767F29C8D77 /* [CP] Check Pods Manifest.lock */,
+				18CDED151DF6D638004CD85E /* Sources */,
+				18CDED161DF6D638004CD85E /* Frameworks */,
+				18CDED171DF6D638004CD85E /* Resources */,
+				22A20B7429BC5F45627D7C0D /* [CP] Embed Pods Frameworks */,
+				1CA338E3F09F184A424E89B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CDED1B1DF6D638004CD85E /* PBXTargetDependency */,
+			);
+			name = Riviera17Tests;
+			productName = Riviera17Tests;
+			productReference = 18CDED191DF6D638004CD85E /* Riviera17Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18CDED231DF6D638004CD85E /* Riviera17UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CDED331DF6D638004CD85E /* Build configuration list for PBXNativeTarget "Riviera17UITests" */;
+			buildPhases = (
+				68A4023855F88B84900E16D8 /* [CP] Check Pods Manifest.lock */,
+				18CDED201DF6D638004CD85E /* Sources */,
+				18CDED211DF6D638004CD85E /* Frameworks */,
+				18CDED221DF6D638004CD85E /* Resources */,
+				8632AF10C24C9936FE6C40A4 /* [CP] Embed Pods Frameworks */,
+				1E1DF03D4F2B94E89BD9634E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CDED261DF6D638004CD85E /* PBXTargetDependency */,
+			);
+			name = Riviera17UITests;
+			productName = Riviera17UITests;
+			productReference = 18CDED241DF6D638004CD85E /* Riviera17UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CDECFA1DF6D638004CD85E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Rishabh Mittal";
+				TargetAttributes = {
+					18CDED011DF6D638004CD85E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TS9SQVZ4BX;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					18CDED181DF6D638004CD85E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18CDED011DF6D638004CD85E;
+					};
+					18CDED231DF6D638004CD85E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18CDED011DF6D638004CD85E;
+					};
+				};
+			};
+			buildConfigurationList = 18CDECFD1DF6D638004CD85E /* Build configuration list for PBXProject "Riviera17" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CDECF91DF6D638004CD85E;
+			productRefGroup = 18CDED031DF6D638004CD85E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CDED011DF6D638004CD85E /* Riviera17 */,
+				18CDED181DF6D638004CD85E /* Riviera17Tests */,
+				18CDED231DF6D638004CD85E /* Riviera17UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CDED001DF6D638004CD85E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CDED131DF6D638004CD85E /* LaunchScreen.storyboard in Resources */,
+				18CDED101DF6D638004CD85E /* Assets.xcassets in Resources */,
+				18CDED0B1DF6D638004CD85E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDED171DF6D638004CD85E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDED221DF6D638004CD85E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CA338E3F09F184A424E89B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Riviera17Tests/Pods-Riviera17Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E1DF03D4F2B94E89BD9634E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Riviera17UITests/Pods-Riviera17UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22A20B7429BC5F45627D7C0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Riviera17Tests/Pods-Riviera17Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		387014720E0DECA2CF493452 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Riviera17/Pods-Riviera17-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40850467E1C291A72E1BDD9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68A4023855F88B84900E16D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		767F30247721FA68DD75231C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Riviera17/Pods-Riviera17-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8632AF10C24C9936FE6C40A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Riviera17UITests/Pods-Riviera17UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F1B83A39BA2767F29C8D77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CDECFE1DF6D638004CD85E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189BB2231DF842810065992C /* ListTableViewCell.swift in Sources */,
+				189BB21A1DF7E9380065992C /* EventDetails.swift in Sources */,
+				1866882D1DFBE0B400CAE30D /* Feedback.swift in Sources */,
+				189BB21F1DF815DB0065992C /* MasterTableViewCell.swift in Sources */,
+				188F07591DFDC0B30053D0AB /* LoginPage.swift in Sources */,
+				18CDED061DF6D638004CD85E /* AppDelegate.swift in Sources */,
+				182DE8BF1DFAA1DF008676A8 /* AllEventsList.swift in Sources */,
+				182DE8BA1DFA6E41008676A8 /* MessagesCell.swift in Sources */,
+				1866E7441DF99C2D0067945A /* CommonViewController.swift in Sources */,
+				182DE8C11DFAA72B008676A8 /* DataHandler.swift in Sources */,
+				187331611DFEBC11007946E9 /* RequestBoardCell.swift in Sources */,
+				180B004B1E02BD8800DC24D0 /* Developers.swift in Sources */,
+				186688291DFBD08100CAE30D /* ContactUsCell.swift in Sources */,
+				182DE8B41DF9D15F008676A8 /* MessageBoard.swift in Sources */,
+				180B004D1E02C0B200DC24D0 /* DevelopersCell.swift in Sources */,
+				18ED121A1DF7B88100FCCD28 /* MasterViewController.swift in Sources */,
+				180AB47E1E2894330078A6D7 /* FormalSubcatController.swift in Sources */,
+				18CDED0E1DF6D638004CD85E /* Riviera17.xcdatamodeld in Sources */,
+				1873315C1DFE4A76007946E9 /* RequestBoard.swift in Sources */,
+				189BB2211DF835A00065992C /* DetailViewController.swift in Sources */,
+				1873315E1DFE4ED5007946E9 /* RequestChange.swift in Sources */,
+				18D6853C1DF7056B00BC7A95 /* EventService.swift in Sources */,
+				18CD907B1DF926ED000EE03C /* CodViewController.swift in Sources */,
+				182DE8B61DFA630D008676A8 /* Message.swift in Sources */,
+				1866882B1DFBD0F700CAE30D /* ContactUS.swift in Sources */,
+				189BB21D1DF808980065992C /* ListController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDED151DF6D638004CD85E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CDED1E1DF6D638004CD85E /* Riviera17Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDED201DF6D638004CD85E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CDED291DF6D638004CD85E /* Riviera17UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CDED1B1DF6D638004CD85E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CDED011DF6D638004CD85E /* Riviera17 */;
+			targetProxy = 18CDED1A1DF6D638004CD85E /* PBXContainerItemProxy */;
+		};
+		18CDED261DF6D638004CD85E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CDED011DF6D638004CD85E /* Riviera17 */;
+			targetProxy = 18CDED251DF6D638004CD85E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CDED091DF6D638004CD85E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CDED0A1DF6D638004CD85E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CDED111DF6D638004CD85E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CDED121DF6D638004CD85E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CDED2B1DF6D638004CD85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CDED2C1DF6D638004CD85E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CDED2E1DF6D638004CD85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B5D71AE319472EDEF4A8F50 /* Pods-Riviera17.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = TS9SQVZ4BX;
+				INFOPLIST_FILE = Riviera17/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAM.Riviera172345;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Riviera17/Riviera17-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18CDED2F1DF6D638004CD85E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FD0662B481DE7B31496C27 /* Pods-Riviera17.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = TS9SQVZ4BX;
+				INFOPLIST_FILE = Riviera17/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAM.Riviera172345;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Riviera17/Riviera17-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18CDED311DF6D638004CD85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07533E278421712A90F1B58 /* Pods-Riviera17Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Riviera17Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAM.Riviera17Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riviera17.app/Riviera17";
+			};
+			name = Debug;
+		};
+		18CDED321DF6D638004CD85E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7573A83EE1F06A640F222F51 /* Pods-Riviera17Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Riviera17Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAM.Riviera17Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riviera17.app/Riviera17";
+			};
+			name = Release;
+		};
+		18CDED341DF6D638004CD85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C0BB5C9099D5A63FE1E5D2 /* Pods-Riviera17UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Riviera17UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAM.Riviera17UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Riviera17;
+			};
+			name = Debug;
+		};
+		18CDED351DF6D638004CD85E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B3E093B8E9E5898B7080480 /* Pods-Riviera17UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Riviera17UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAM.Riviera17UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Riviera17;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CDECFD1DF6D638004CD85E /* Build configuration list for PBXProject "Riviera17" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CDED2B1DF6D638004CD85E /* Debug */,
+				18CDED2C1DF6D638004CD85E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CDED2D1DF6D638004CD85E /* Build configuration list for PBXNativeTarget "Riviera17" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CDED2E1DF6D638004CD85E /* Debug */,
+				18CDED2F1DF6D638004CD85E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CDED301DF6D638004CD85E /* Build configuration list for PBXNativeTarget "Riviera17Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CDED311DF6D638004CD85E /* Debug */,
+				18CDED321DF6D638004CD85E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CDED331DF6D638004CD85E /* Build configuration list for PBXNativeTarget "Riviera17UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CDED341DF6D638004CD85E /* Debug */,
+				18CDED351DF6D638004CD85E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18CDED0C1DF6D638004CD85E /* Riviera17.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18CDED0D1DF6D638004CD85E /* Riviera17.xcdatamodel */,
+			);
+			currentVersion = 18CDED0D1DF6D638004CD85E /* Riviera17.xcdatamodel */;
+			path = Riviera17.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18CDECFA1DF6D638004CD85E /* Project object */;
+}

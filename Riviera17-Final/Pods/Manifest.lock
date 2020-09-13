@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.2.0)
+  - SWRevealViewController (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - SWRevealViewController
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+
+PODFILE CHECKSUM: 142798b5a284487de5cc79e9b26dac0b6659bf23
+
+COCOAPODS: 1.1.1
